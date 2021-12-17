@@ -21,7 +21,7 @@ st.image (image, use_column_width=True)
 st.title ("PUSAT DATA PRODUKSI MINYAK DUNIA")
 #membuat desc program
 st.markdown ("Sebuah web-apps penyedia data histori produksi minyak dunia yang diolah dari sumber terpercaya dan dikembangkan oleh organisasi oil and gas data center mgoildatacenter.org." 
-             "Web ini terdiri atas berbagai fitur, yakni :")
+             " Web ini terdiri atas berbagai fitur, yakni :")
 st.markdown("1. Grafik history produksi suatu negara.") 
 st.markdown("2. Grafik history produksi suatu negara terhadap rata-rata produksi minyak tahunan dunia.") 
 st.markdown("3. Status produksi minyak suatu negara di tahun tertentu") 
@@ -113,7 +113,7 @@ ax.set_title('Histori Produksi Minyak Negara ' + country, fontsize = 25)
 ax.set_xlabel("Tahun", fontsize=23)
 ax.set_ylabel("Jumlah produksi (barrel)", fontsize=23)
 #Membagi kolom bagian histori produksi jadi 2
-hist1, hist2 = st.columns([4, 1]) #rasio lebar kolom 6:1
+hist1, hist2 = st.columns([4, 1]) #rasio lebar kolom 4:1
 hist1.markdown ('Grafik dan tabel ini sangat membantu Anda dalam melihat tren produksi minyak setiap tahun di suatu negara')
 hist1.subheader('Grafik')
 hist1.pyplot(fig)#menampilkan line chart
