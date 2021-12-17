@@ -113,7 +113,7 @@ ax.set_title('Histori Produksi Minyak Negara ' + country, fontsize = 25)
 ax.set_xlabel("Tahun", fontsize=23)
 ax.set_ylabel("Jumlah produksi (barrel)", fontsize=23)
 #Membagi kolom bagian histori produksi jadi 2
-hist1, hist2 = st.columns([6, 1]) #rasio lebar kolom 6:1
+hist1, hist2 = st.columns([4, 1]) #rasio lebar kolom 6:1
 hist1.markdown ('Grafik dan tabel ini sangat membantu Anda dalam melihat tren produksi minyak setiap tahun di suatu negara')
 hist1.subheader('Grafik')
 hist1.pyplot(fig)#menampilkan line chart
